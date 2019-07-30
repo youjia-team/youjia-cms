@@ -1,20 +1,10 @@
 <template>
-  <div id="app">
+  <transition name="fade">
     <router-view></router-view>
-  </div>
+  </transition>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
-export default {
-  name: 'app',
-  components: {
-    HelloWorld
+  export default {
   }
-}
 </script>
-
-<style>
-
-</style>
