@@ -1,7 +1,6 @@
 <template>
   <div id="app">
-    
-    <HelloWorld msg="Hello!欢迎您参与本项目开发"/>
+    <router-view></router-view>
   </div>
 </template>
 
